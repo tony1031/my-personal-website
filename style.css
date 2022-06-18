@@ -1,7 +1,7 @@
-@import url('https://fonts.googleleapis.com/css2?family=Poppins:wgh') 
+ @import url(https://fonts.googleleapis.com/css2?family=Poppins:wgh);
 *{
-    margin: oxp;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -48,9 +48,16 @@ body{
     cursor: pointer;
     border-radius: 3px;
     margin-left: 5px;
+    opacity: 0.6;
+    pointer-events: auto;
+}
+.inputField button.active{
+    opacity: 1;
+    pointer-events: auto;
 }
 .wrapper .todoList{
-
+    max-height: 250xp;
+    overflow-y: auto;
 }
 .todoList li{
     list-style: none;
