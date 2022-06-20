@@ -6,28 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <title>My Personal Website</title>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
-<body>
-    <div class="wrapper">
-          <header>Todo App</header>
-        <div class="inputField">
-            <input type="text" placeholder="Add your new todo">
-            <button><i class="fas fa-plus"></i></button>
-        </div> 
-        <ul class="todolist">
-          <li>Buy a new gaming laptop <span><i class="fas fa-trash"></i></span></li> 
-          <li>Complete a previous task <span><i class="fas fa-trash"></i></span></li> 
-          <li>Create a video for youtube <span><i class="fas fa-trash"></i></span></li> 
-          <li>create a new portfolio site <span><i class="fas fa-trash"></i></span></li> 
-        </ul>
-        <div class="footer">
-            <span>You have<span class="PendingNumb"></span> pending tasks</span>
-            <button>Clear All</button>
+    <body>
+        <h1>To Do List</h1>
+        <div class="container">
+            <input id="inputField" type="text"><button id="addToDo">+</button>
+            <div class="to-do" id="toDoContainer">
+            </div>
         </div>
-    </div>
-
-    <script src="script.js"></script>
-
-</body>
+        <script src="main.js"></script>
+    </body>
 </html>
